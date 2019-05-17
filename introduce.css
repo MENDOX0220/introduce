@@ -1,10 +1,12 @@
-html,body{
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
-.TopBar{
+
+.TopBar {
     background-color: #36afff;
     width: 100%;
     height: 7vh;
@@ -15,27 +17,31 @@ html,body{
     position: fixed;
     top: 0;
 }
-.TopBar-right{
+
+.TopBar-right {
     font-size: 2em;
     color: white;
     margin-left: 1vw;
 }
-.TopBar-Left{
+
+.TopBar-Left {
     display: flex;
     font-size: 1.5em;
     color: white;
     margin-right: 1em;
 }
-.TopBar-Left-content{
+
+.TopBar-Left-content {
     margin-left: 15px;
 }
 
-#middle{
+#middle {
     width: 100vw;
     text-align: center;
     margin-top: 7vh;
 }
-.main{
+
+.main {
     text-align: center;
     width: 100vw;
     height: 93vh;
@@ -44,19 +50,21 @@ html,body{
     align-items: center;
     border-bottom: 2px solid #aaaaaa;
 }
-.main-center{
-    color:  black;
+
+.main-center {
+    color: black;
     font-size: 3em;
     font-weight: bold;
 }
-.blank{
+
+.blank {
     width: 100vw;
     height: 10vh;
 }
 
 
 
-.step1{
+.step1 {
     font-size: 2.6em;
     border-radius: 40px;
     border: 1px solid #aaaaaa;
@@ -65,7 +73,8 @@ html,body{
     color: darkslategray;
     visibility: hidden;
 }
-.step1-1{
+
+.step1-1 {
     font-size: 2.6em;
     border-radius: 40px;
     border: 1px solid #aaaaaa;
@@ -73,7 +82,8 @@ html,body{
     padding: 20px 100px;
     color: darkslategray;
 }
-.step1-2{
+
+.step1-2 {
     font-size: 2.6em;
     border-radius: 40px;
     border: 1px solid #aaaaaa;
@@ -83,21 +93,23 @@ html,body{
 }
 
 
-.step1-menu{
+.step1-menu {
     display: flex;
     justify-content: space-around;
     text-align: center;
     width: 100vw;
     margin-top: 30px;
 }
-.step1-content{
+
+.step1-content {
     width: 33vw;
     height: 65vh;
     color: black;
     text-align: left;
     display: inline-block;
 }
-.step1-content-middle{
+
+.step1-content-middle {
     width: 33vw;
     height: 50vh;
     color: black;
@@ -105,42 +117,51 @@ html,body{
     border-left: 2px solid black;
     border-right: 2px solid black;
 }
-.step1-contentm{
+
+.step1-contentm {
     font-size: 1.8em;
     font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
 }
-.step1-contenter{
+
+.step1-contenter {
     font-size: 1.5em;
     text-align: center;
 }
-.img1{
+
+.img1 {
     width: 30vw;
     margin: 20px;
 }
-.img2{
-    width: 30vw;
-    margin: 20px;
-    margin-top: 56px;
-}
-.img3{
+
+.img2 {
     width: 30vw;
     margin: 20px;
     margin-top: 56px;
 }
-.img4{
+
+.img3 {
+    width: 30vw;
+    margin: 20px;
+    margin-top: 56px;
+}
+
+.img4 {
     width: 16vw;
-    
+
 }
-.img5{
+
+.img5 {
     width: 40vw;
     margin: 30px 0;
 }
-.img6{
+
+.img6 {
     margin: 40px 0;
 }
-.step2-menu{
+
+.step2-menu {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -148,22 +169,26 @@ html,body{
     width: 100vw;
     margin-top: 30px;
 }
-.step2-iwop-1{
-    transition:width 2s, height 2s, color 2s, transform 0.5s;
-}
-.step2-iwop{
-    transition:width 2s, height 2s, color 2s, transform 0.5s;
-}
-.step2-iwop-1:hover{
-    color: #FFCCCC;
-    transform:rotate(30deg);
-}
-.step2-iwop:hover{
-    color: #FFCCCC;
-    transform:rotate(30deg);
+
+.step2-iwop-1 {
+    transition: width 2s, height 2s, color 2s, transform 0.5s;
 }
 
-.step2-content-header{
+.step2-iwop {
+    transition: width 2s, height 2s, color 2s, transform 0.5s;
+}
+
+.step2-iwop-1:hover {
+    color: #FFCCCC;
+    transform: rotate(30deg);
+}
+
+.step2-iwop:hover {
+    color: #FFCCCC;
+    transform: rotate(30deg);
+}
+
+.step2-content-header {
     width: 85%;
     display: flex;
     justify-self: center;
@@ -171,35 +196,41 @@ html,body{
     font-weight: bold;
     color: #36AFFF;
 }
-.step2-content-nav{
+
+.step2-content-nav {
     margin-top: 0.5em;
     width: 85%;
     display: flex;
     justify-self: center;
     font-size: 2.7em;
 }
-.step2-content{
+
+.step2-content {
     font-size: 1.8em;
     text-align: left;
     width: 85%;
     border: 1px solid #aaaaaa;
     border-radius: 40px;
 }
-.step2-contentm{
+
+.step2-contentm {
     margin: 0;
 }
-.step3-menu{
+
+.step3-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
-.step3-first{
+
+.step3-first {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.step3-header{
+
+.step3-header {
     width: 49.8vw;
     font-size: 2.7em;
     color: black;
@@ -207,13 +238,15 @@ html,body{
     margin-top: 1.5em;
     margin-bottom: 0;
 }
-.step3-content{
+
+.step3-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 5em;
 }
-.step3-contentm{
+
+.step3-contentm {
     width: 49.8vw;
     border: 1px solid #999966;
     color: black;
