@@ -2,8 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    display: inline;
 }
 
 .TopBar {
@@ -218,15 +217,16 @@ body {
 }
 
 .step3-menu {
+    width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .step3-first {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     flex-wrap: wrap;
 }
 
@@ -241,7 +241,7 @@ body {
 
 .step3-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     flex-wrap: wrap;
     margin-bottom: 5em;
 }
